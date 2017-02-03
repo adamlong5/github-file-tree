@@ -1,0 +1,16 @@
+{
+  "__tree_type": "folder",
+  "foo": {
+    "__tree_type": "folder",
+    "zed": {
+      "__tree_type": "folder",
+      "other": {
+        "__tree_type": "file",
+        "href": "#"
+      }
+    }
+  },
+  "bar": {
+    "__tree_type": "folder"
+  }
+}

@@ -1,0 +1,29 @@
+#files {
+  margin-left: 200px !important;
+}
+
+#treeRoot {
+  font-size: 12px;
+  position: fixed;
+  top: 64px;
+  left: 10px;
+  width: 200px;
+  height: 90%;
+  overflow: auto;
+}
+
+.treeFolder {
+  padding-top: '8px';
+}
+
+.treeFolderContents {
+  margin-left: 10px;
+  border-left: 1px solid #ccc;
+  /*background: rgba(0, 0, 0, 0.05);*/
+}
+
+.treeFolderName {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
