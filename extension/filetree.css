@@ -1,24 +1,30 @@
 #files {
-  margin-left: 200px !important;
+  margin-left: 20px;
 }
 
-#treeRoot {
+#fileTreeRoot {
   font-size: 12px;
   position: fixed;
-  top: 64px;
+  top: 470px;
   left: 10px;
-  width: 200px;
   height: 90%;
   overflow: auto;
+}
+#fileTreeRoot.open {
+  width: 220px;
 }
 
 .treeFolder {
   padding-top: '8px';
+  cursor: pointer;
+}
+.treeFolder h2:hover {
+  background: #eee;
 }
 
 .treeFolderContents {
   margin-left: 10px;
-  border-left: 1px solid #ccc;
+  border-left: 1px solid #eee;
   /*background: rgba(0, 0, 0, 0.05);*/
 }
 
@@ -26,4 +32,21 @@
   margin: 0;
   padding: 0;
   font-size: 12px;
+}
+
+.toolbar {
+  position: relative;
+}
+.toolbar button {
+  border: 0;
+  outline: 0;
+  background: #eee;
+}
+.toolbar button:hover {
+  background: #ddd;
+}
+
+button.close {
+  position: absolute;
+  right: 0;
 }

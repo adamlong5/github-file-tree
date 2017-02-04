@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 
 const File = ({ href, name }) => (
   <div className="treeFile">
-    <a href={href}>{name}</a>
+    <a href={href}><i className="fa fa-file-code-o" />{` ${name}`}</a>
   </div>
 );
 
